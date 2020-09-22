@@ -1,0 +1,79 @@
+mysql:
+  taoshou:
+    host:
+    port:
+    dbname:
+    username:
+    password:
+    connmaxlifetime:
+    maxopenconns:
+  #[御剑] 统计数据源--美安后台库1
+  yj_source_admin:
+    host:
+    port:
+    dbname:
+    username:
+    password:
+    connmaxlifetime:
+    maxopenconns:
+  #[御剑] 统计数据源--美安后台库2
+  yj_source_taole666:
+    host:
+    port:
+    dbname:
+    username:
+    password:
+    connmaxlifetime:
+    maxopenconns:
+
+  #[御剑] 统计数据源--运营sdk数据库
+  yj_source_supersdk:
+    host:
+    port:
+    dbname:
+    username:
+    password:
+    connmaxlifetime:
+    maxopenconns:
+
+    #[御剑] 统计结果库--203统计库（正式）
+  yj_stat:
+    host:
+      port:
+      dbname:
+      username:
+      password:
+      connmaxlifetime:
+      maxopenconns:
+
+    #[御剑] 统计结果库--203统计库（本地）
+    #yj_stat:
+    #host: localhost
+    #port: 3306
+    #dbname: test
+    #username: root
+    #password:
+    #connmaxlifetime: 100
+    #maxopenconns: 100
+
+task:
+  #ts:
+  #ActConsume:  "*/5 * * * * ?"
+    #ActConsume1:  "*/1 * * * * ?"
+  #ActConsume2:  "*/2 * * * * ?"
+  yj:
+    #ActLtv:  "10 25 10 * * ?"
+    #ActLtv:  "*/5 * * * * ?"
+    ActUser:  "*/60 * * * * ?"
+    #ActPay:  "*/15 * * * * ?"
+    #ActPutinEffect:  "10 16 10 * * ?"
+#redis:
+#  taoshou:
+#    expire: 100,
+#    select: 3,
+#    host: 106.75.139.233,
+#    port: :8806,
+#    password: 111,
+
+
+

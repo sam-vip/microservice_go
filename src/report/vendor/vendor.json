@@ -1,0 +1,25 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "qQzD0ze88B8zwyHRA3wN+tDY2sM=",
+			"path": "github.com/go-sql-driver/mysql",
+			"revision": "dd9d356b496cd5c37543d3dd0ffbef75714b88ec",
+			"revisionTime": "2020-02-25T15:24:38Z"
+		},
+		{
+			"checksumSHA1": "/38hAjO0/xwLuCSDrj6c5wSF6DQ=",
+			"path": "github.com/robfig/cron",
+			"revision": "e7da914f1b8ad11451fae2a1e3dad602f43cc837",
+			"revisionTime": "2020-01-04T01:47:08Z"
+		},
+		{
+			"checksumSHA1": "YPOqTCFMxByLZFc6YLE37JnFhxQ=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "53403b58ad1b561927d19068c655246f2db79d48",
+			"revisionTime": "2020-01-21T17:19:40Z"
+		}
+	],
+	"rootPath": "report"
+}
